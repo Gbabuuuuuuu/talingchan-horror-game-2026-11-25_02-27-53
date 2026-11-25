@@ -1,0 +1,20 @@
+{
+  "id": "planter_pot_clay",
+  "materials": [
+    {
+      "name": "planter_pot_clay",
+      "baseColor": "textures/planter_pot_clay_base.jpg",
+      "normal": "textures/planter_pot_clay_normal.png",
+      "mask": "textures/planter_pot_clay_mask.png",
+      "alphaClip": false,
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "triangles": 3080,
+  "lowTriangles": 0
+}

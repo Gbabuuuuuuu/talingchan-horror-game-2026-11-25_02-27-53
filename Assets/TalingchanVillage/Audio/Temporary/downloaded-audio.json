@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://opengameart.org/sites/default/files/crickets_1.mp3",
+    "name": "night_crickets.mp3"
+  },
+  {
+    "url": "https://opengameart.org/sites/default/files/door_1.ogg",
+    "name": "door_temp.ogg"
+  },
+  {
+    "url": "https://opengameart.org/sites/default/files/item_1.ogg",
+    "name": "item_pickup_temp.ogg"
+  },
+  {
+    "url": "https://opengameart.org/sites/default/files/01-footstep_0.ogg",
+    "name": "footstep_01.ogg"
+  },
+  {
+    "url": "https://opengameart.org/sites/default/files/02-footstep.ogg",
+    "name": "footstep_02.ogg"
+  },
+  {
+    "url": "https://opengameart.org/sites/default/files/03-footstep.ogg",
+    "name": "footstep_03.ogg"
+  },
+  {
+    "url": "https://opengameart.org/sites/default/files/04-footstep.ogg",
+    "name": "footstep_04.ogg"
+  },
+  {
+    "url": "https://opengameart.org/sites/default/files/05-footstep.ogg",
+    "name": "footstep_05.ogg"
+  },
+  {
+    "url": "https://opengameart.org/sites/default/files/06-footstep.ogg",
+    "name": "footstep_06.ogg"
+  }
+]

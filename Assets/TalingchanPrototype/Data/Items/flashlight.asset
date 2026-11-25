@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fffad333c891c5749870673c2b66363f, type: 3}
+  m_Name: flashlight
+  m_EditorClassIdentifier: Assembly-CSharp::Talingchan.Prototype.PrototypeItemDefinition
+  id: flashlight
+  displayName: "\u0E44\u0E1F\u0E09\u0E32\u0E22"
+  description: "X \u0E2B\u0E23\u0E37\u0E2D F \u0E2B\u0E22\u0E34\u0E1A/\u0E40\u0E01\u0E47\u0E1A \u2022 G \u0E40\u0E1B\u0E34\u0E14/\u0E1B\u0E34\u0E14"
+  maxStack: 1
+  canDrop: 0
+  canCarry: 0
+  canThrow: 0
+  use: 2
+  color: {r: 0.18999997, g: 0.20999995, b: 0.22999996, a: 1}
+  icon: {fileID: 0}
+  worldPrefab: {fileID: 2638982179610218481, guid: 28cbaa8920c671c418803367df706a82, type: 3}
+  worldMass: 0.4

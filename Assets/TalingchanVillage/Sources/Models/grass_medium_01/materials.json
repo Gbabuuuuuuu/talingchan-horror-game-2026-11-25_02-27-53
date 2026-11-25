@@ -1,0 +1,20 @@
+{
+  "id": "grass_medium_01",
+  "materials": [
+    {
+      "name": "grass_medium_01",
+      "baseColor": "textures/grass_medium_01_base.png",
+      "normal": "textures/grass_medium_01_normal.png",
+      "mask": "textures/grass_medium_01_mask.png",
+      "alphaClip": true,
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "triangles": 1599,
+  "lowTriangles": 368
+}

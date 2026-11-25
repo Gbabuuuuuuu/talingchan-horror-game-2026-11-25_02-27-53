@@ -1,0 +1,20 @@
+{
+  "id": "covered_car",
+  "materials": [
+    {
+      "name": "covered_car",
+      "baseColor": "textures/covered_car_base.jpg",
+      "normal": "textures/covered_car_normal.png",
+      "mask": "textures/covered_car_mask.png",
+      "alphaClip": false,
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "triangles": 12592,
+  "lowTriangles": 0
+}

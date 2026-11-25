@@ -1,0 +1,24 @@
+TEMPORARY PROTOTYPE AUDIO - CC0
+These are candidate placeholder clips. They have not been mixed into gameplay yet.
+
+night_crickets.mp3
+Crickets Ambient Noise - loopable
+Creator: Wolfgang_ (optional attribution: Ted Kerr)
+Source: https://opengameart.org/content/crickets-ambient-noise-loopable
+License: CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/
+
+footstep_01.ogg through footstep_06.ogg
+Footsteps
+Creator: GboxMikeFozzy
+Source: https://opengameart.org/content/footsteps-0
+License: CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/
+
+door_temp.ogg and item_pickup_temp.ogg
+Rpg Sound Effect Pack
+Creator: Delta12 Studio
+Source: https://opengameart.org/content/rpg-sound-effect-pack
+License: CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/
+
+Original download URLs are listed in downloaded-audio.json.
+Future playback volume, pitch, looping, distance and clip assignment must be
+adjustable in Unity Inspector, per the game designer's requirement.

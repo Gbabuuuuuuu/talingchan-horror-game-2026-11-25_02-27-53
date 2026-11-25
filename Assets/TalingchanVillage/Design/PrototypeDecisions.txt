@@ -1,0 +1,65 @@
+PROTOTYPE DESIGN RECORD - 25 NOVEMBER 2026
+All decisions below apply to gameplay experiments. They are not final production design.
+
+LATEST USER REQUIREMENT
+Every design-facing system must expose its tunable data in Unity Inspector.
+Use serialized components / configuration assets, organized headings, useful labels,
+tooltips, validation, and visible debug state. Do not hard-code balance, quest content,
+item definitions, recipes, save points, audio references, or event timing.
+
+AGREED FOR THE PROTOTYPE
+- Single-player PC, keyboard and mouse, first-person village horror.
+- Explore every house freely. Some houses have items, some have none.
+- Gather items and craft. No level / hunger / health-meter system requested.
+- Limited inventory: 10 slots; item stacking is allowed.
+- Maximum quantity per stack is NOT specified yet; make it configurable per item.
+- Quest wheel / inventory blocks player movement; ghosts and the world continue.
+- Complete every story quest before the final-boss reveal.
+- Quest tracker at screen edge, combined with narrative / environmental clues.
+- Missing a clue leaves a quest incomplete; revisiting and NPC hints can recover it.
+- Items do not respawn in the same run. New-run item placements may be randomized.
+- Ordinary ghost appearances are primarily atmospheric and non-damaging.
+- Stabber NPC: candidate trigger is 120 seconds of AFK or entry into forbidden zones.
+- Exclude reading, dialogue, inventory, and cutscenes from the AFK timer.
+- Death returns the player to the latest checkpoint.
+- Checkpoint location is deferred; it may be a house or another location.
+- Flashlight remains important. Phone gameplay is deferred.
+- Crafting / charm details and final boss story remain undecided.
+- Visual art and cutscene production are deferred. Temporary audio may be sourced.
+
+INSPECTOR CONFIGURATION REQUIRED
+- Inventory capacity, item stack limits, item categories, drop/use permissions.
+- Item definitions, spawn points / pools, required quest items, new-run seed options.
+- Quest descriptions, objectives, dependencies, completion events and rewards.
+- Crafting stations, ingredient lists, recipe outputs, blessing interactions.
+- AFK duration, excluded player states, forbidden areas, pursuit / detection settings.
+- Death / respawn settings, checkpoint transforms, saved state categories.
+- Interaction distances, input bindings where applicable, movement tuning.
+- Ghost spawn points, triggers, delays, durations, event frequency and enable switches.
+- Audio clips, volume, pitch, distance / falloff, loop and transition settings.
+- UI text, layout tuning, temporary-content switches, test / reset actions.
+
+STORY CONTENT PROVIDED BY TEAM
+- Burning-car ghost.
+- Man who chases people with a knife.
+- Yai Wan at the pier, associated with a woman shot in a boat.
+- Abandoned house combines skeleton discovery and upstairs shadow / sound events.
+- Mother-and-child spirit and moving cradle.
+- Dangerous waterway / water spirit.
+- Red-eyed Buddha quest: player uses a nail, then a scene shows bleeding eyes.
+- Chao Duan of Wat Rerai: helps / gives directions, followed by a headless reveal.
+- Final ghost story will combine and extend existing events; details deferred.
+
+PROPOSED FIRST PLAYABLE LOOP - NOT YET CONFIRMED
+Use the abandoned house to test checkpoint -> temporary objective -> exploration ->
+stackable item collection / full inventory / dropping -> atmospheric encounter ->
+return / temporary quest turn-in. Test AFK pursuit and death / checkpoint reload
+as a separate branch. Use placeholder turn-in instead of deciding real crafting now.
+
+STILL OPEN
+- Checkpoint locations, save input / auto-save, exactly what rolls back on death.
+- Stabber warning, spawn and stop conditions, hiding / escape rules.
+- Stack quantities and protections for indispensable quest items.
+- Recipe, charm effect, crafting and monk / blessing responsibilities.
+- Opening narration / reading / cutscene content.
+- Final boss reveal requirements and cutscene content.

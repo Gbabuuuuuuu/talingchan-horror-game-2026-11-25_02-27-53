@@ -1,0 +1,20 @@
+{
+  "id": "shrub_01",
+  "materials": [
+    {
+      "name": "shrub_01",
+      "baseColor": "textures/shrub_01_base.png",
+      "normal": "textures/shrub_01_normal.png",
+      "mask": "textures/shrub_01_mask.png",
+      "alphaClip": true,
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "triangles": 6999,
+  "lowTriangles": 1609
+}
